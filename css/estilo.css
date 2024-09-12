@@ -36,10 +36,14 @@ header {
   justify-content: space-evenly;
   height: 600px;
   align-items: center;
+  gap: 50px;
+}
+figure{
+  margin: 0px;
 }
 
 figure img{
-  height: 450px;
+  width: 270px;
 }
 
 #sec_ctd h1{
@@ -48,7 +52,12 @@ figure img{
 }
 
 #sec_ctd p{
-  width: 450px;
+  width: 400px;
+  text-align: justify;
+}
+
+#especial#sec_ctd#sinopse p {
+  width: 350px;
   text-align: justify;
 }
 
@@ -96,6 +105,10 @@ figure img{
 main {
   background-color: #333;
   color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 h1, h2 {
@@ -117,11 +130,21 @@ footer {
   text-align: center;
   font-family: 'Amatic SC';
   font-size: large;
+  height: 60px;
 }
 
 #acesso a {
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
+  
+}
+
+#acesso.m{
+  display: flex;
+  align-items: center;
+}
+#acesso.m a img{
+  width: 40px;
 }
 
 .l {
