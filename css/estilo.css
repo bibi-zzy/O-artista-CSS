@@ -111,3 +111,26 @@ footer {
   color: #ddd;
 }
 
+#acesso {
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: large;
+}
+
+#acesso a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.l {
+  color: white;
+}
+
+#descricao {
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+}
