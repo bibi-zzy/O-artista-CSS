@@ -81,7 +81,17 @@ figure img{
   height: 40px;
 }
 
+.f {
+  background-color: #5b305a;
+}
 
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
 
 main {
   background-color: #333;
