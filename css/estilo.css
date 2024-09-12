@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+header {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#logo {
+  height: 100px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 600px;
+  align-items: center;
+}
+
+figure img{
+  height: 450px;
+}
+
+#sec_ctd h1{
+  text-align: right;
+  font-size: xx-large;
+}
+
+#sec_ctd p{
+  width: 450px;
+  text-align: justify;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.capa img{
+  width: 300px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+#email a{
+  color: white;
+  text-decoration: none;
+}
+
+#social a img {
+  height: 40px;
+}
+
+
+
+main {
+  background-color: #333;
+  color: #ddd;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+}
+
+#second a{
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+}
+
