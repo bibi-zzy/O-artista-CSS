@@ -36,7 +36,7 @@ header {
   justify-content: space-evenly;
   height: 600px;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 figure{
   margin: 0px;
@@ -51,15 +51,12 @@ figure img{
   font-size: xx-large;
 }
 
+
 #sec_ctd p{
-  width: 490px;
+  width: 450px;
   text-align: justify;
 }
 
-#especial#sec_ctd#sinopse p {
-  width: 350px;
-  text-align: justify;
-}
 
 #second {
   display: flex;
@@ -157,3 +154,4 @@ footer {
   width: 600px;
   padding: 10px;
 }
+
